@@ -2,7 +2,7 @@ import cartActionTypes from "./cart.types";
 import { addItemToCart, removeItemFromCart, clearItem } from "./cart.utils";
 
 const INITIAL_STATE = {
-  hidden: cartActionTypes.TOGGLE_CART_HIDDEN,
+  hidden: true,
   cartItems: [],
 };
 
