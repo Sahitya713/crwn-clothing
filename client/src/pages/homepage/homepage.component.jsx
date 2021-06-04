@@ -4,6 +4,8 @@ import "./homepage.styles.scss";
 import Directory from "../../components/directory/directory.component.jsx";
 
 const HomePage = () => {
+  // throw Error;
+
   return (
     <div className="homepage">
       <Directory />
