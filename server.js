@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const enforce = require("express-sslify");
+// const enforce = require("express-sslify");
 
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 if (process.env.NODE_ENV === "production") {
-  app.use(enforce.HTTPS({ trustProtoHeader: true }));
+  // app.use(enforce.HTTPS({ trustProtoHeader: true }));
   app.use(express.static(path.join(__dirname, "client/build")));
 
   app.get("*", function (req, res) {
