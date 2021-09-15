@@ -1,7 +1,8 @@
 # crwn-clothing
 
-An e-commerce platform built with React and Firebase and Stripe integration for payment.
+Personal project developed to learn React. Reference material can be found at [Complete React Course](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/)
 
+An e-commerce platform built with React and Firebase and Stripe integration for payment.\
 View the app here: [CRWN-Sahitya](https://crwn-sahitya.herokuapp.com/)
 
 The application is a progressive web app and can thus be downloaded onto a mobile device.
